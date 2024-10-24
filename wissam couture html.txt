@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wissam Couture</title>
+    <style>
+        /* Basic CSS for layout */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            color: #333;
+        }
+
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 5px 10px;
+        }
+
+        nav a:hover {
+            border-bottom: 2px solid #fff;
+        }
+
+        .hero {
+            background-image: url('https://via.placeholder.com/1500x800');
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 3em;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+        }
+
+        .section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .collection {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .collection-item {
+            margin: 20px;
+            text-align: center;
+        }
+
+        .collection-item img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 40px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Wissam Couture</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Collections</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Luxury Couture</h2>
+    </section>
+
+    <section class="section">
+        <h2>New Collection</h2>
+        <div class="collection">
+            <div class="collection-item">
+                <img src="https://via.placeholder.com/300x400" alt="Item 1">
+                <p>Exclusive Dress 1</p>
+            </div>
+            <div class="collection-item">
+                <img src="https://via.placeholder.com/300x400" alt="Item 2">
+                <p>Exclusive Dress 2</p>
+            </div>
+            <div class="collection-item">
+                <img src="https://via.placeholder.com/300x400" alt="Item 3">
+                <p>Exclusive Dress 3</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>About Wissam Couture</h2>
+        <p>Wissam Couture is a high-end fashion brand known for its elegant and exclusive designs. Each piece is crafted with attention to detail, embodying the essence of luxury.</p>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Wissam Couture. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
